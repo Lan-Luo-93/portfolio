@@ -1,0 +1,57 @@
+
+	
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		/*background-image: url(../imgs/bg-1.jpg);*/
+		height: 100%; 
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	
+	}
+	#section2{
+		/*background-image: url(imgs/bg3.jpg);*/
+		padding: 0 0 0 0;
+	}
+	#section3{
+		/*background-image: url(imgs/bg4.jpg);*/
+		padding: 4% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+/*	#slide1{
+		background-image: url(imgs/bg2.jpg);
+		padding: 3% 0 0 0;
+	}
+	#slide2{
+		background-image: url(imgs/bg5.jpg);
+		padding: 3% 0 0 0;
+	}
+*/
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lan Luo - UX Designer</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="lib/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</head>
+<body>
+		<div id="header" style="background-color:#ff7b54;" >
+			<header class="container">
+				<nav class="nav flex-container">
+					<div class="logo col-lg-2">
+						<a href="spotart.html"class="img"><img src="imgs/logo.png" alt=""></a>
+					</div>
+					<ul class="flex-container">
+						<li class="main-nav"><a href="index.html">Works</a></li>
+						<li class="main-nav"><a href="spotart.html">About | Contact</a></li>
+						<li><span class="burger" id="burger" style="font-size:28px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span></li>
+					</ul>
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						  <div class="overlay-content">
+								<a href="spotart.html">Spot Art</a>
+								<a href="spotart.html">FestShare</a>
+								<a href="spotart.html">VR Exploring</a>
+								<a href="spotart.html">AiR</a>
+								<a href="spotart.html">The Dry Garden</a>
+								<a href="spotart.html">Birding</a>
+								<a href="contact.html">Contact</a>
+						  </div>
+					</div>
+				</nav>
+			</header>
+		</div>
+		<div id="section5">
+			<div class="bj" style="background-image: url('imgs/blocker/Spotart_hero.jpg')" >
+				<div class="container grid" >
+					<div class="row gutters flex wrap first">
+
+						<div class="col-lg-5 col-sm-12 content ">
+							<h1 class="colon blocker" style="margin:0 0 0 0; color: #ff7b54;">SPOTART</h1>
+							<h2 class="detail-h2 grey" >Explore San Francisco street art in a new dimension</h2>
+							<p class="grey" >This is a street art discovery app with AR feature providing visitors with a enjoyable viewing and learning experience by creating a deeper art immersion.</p>
+							<!-- <p>Email:luolan0614@gmail.com</p> -->
+							<div class="col-lg-7 col-sm-12  visiable hidden ">
+								<div class="sm-img">
+									<img src="imgs/blocker/Spotart_hero.jpg" alt="">
+								</div>
+							</div>
+							<div class="button color">
+								<a  class="white" href="https://drive.google.com/open?id=1s5O8ebCB-FI8ak6xtpMXlV7-chV8ZX46">&rarr;&ensp;&ensp; CASE STUDY
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-7 col-sm-12 sm-img">
+							<div class="img"><img src="imgs/blocker/blocker-landing.png" alt="">
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</div>
+			
+			<div class="" >
+				<div class="container grid">
+					<div class="title">
+						<h3 class="big left">Overview</h3>
+						<h2 class="left blocker" >Challenge</h2>
+					</div>
+					<div class="flex-nor flex title">
+							<p class="left">San Francisco is one of the top cities to experience murals in the United States. People enjoy viewing street art but sometimes they don’t understand what they see due to lack of information, and some murals might even be difficult to find. This might result in artists not receiving the exposure they deserve. Visitors need a way to engage with street art because their current engagement is too quick and shallow.</p>
+						
+		
+					</div>
+					
+					<div class="title">
+						<h2 class="left blocker" >Solution</h2>
+					</div>
+					<div class="flex-nor flex title">
+							<p class="left">I believe that by creating an AR app that allows visitors to discover and interact with murals, the audience will achieve a higher satisfaction level, and artists are also provided with an opportunity to create content beyond the traditional format.</p>
+						
+		
+					</div>
+
+				</div>
+			</div>
+
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title">
+							<h3 class="big left">1. User Research</h3>
+							<h2 class="left blocker">Ethnographic Research </h2>
+							<p class="left">I did a field trip to gain insight into people’s habits and observe how people in public interact with street art. It was a sunny day; perfect weather for a site visit to Clarion Alley and Balmy Alley.</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/blocker-src-1.png" alt="">
+							</div>
+						</div>
+						
+                        <div class="title"><h2 class="left blocker">Observations</h2>
+							<p class="left"> • Spectators viewed the art for a small amount of time (1–2 minutes).</p>
+							<p class="left"> • Spectators took pictures and were posing in front of the art but left immediately after.</p>
+							<p class="left"> • No information about the art piece was located nearby.</p>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title"><h2 class="left blocker">Competitive Analysis</h2>
+						<p class="left">After the site visit I decided to conduct an analysis among apps and sites that promote street art and art exhibitions. I compared the difference and similarities between them, both visually and functionally. This analysis helped me understand and identify both the problems and areas to focus on.</p></div>
+						
+						<div class="">
+							<img class="big-img" src="imgs/blocker/user-j.png" alt="">
+						</div>
+
+						<div class="title"><h2 class="left blocker">Key Findings</h2>
+							<p class="left"> • All apps featured an interactive map and points of interest to be visited</p>
+							<p class="left"> • All apps had a database with information about artists and artworks</p>
+							<p class="left"> • There were no pre-set walking paths and audio tours for viewing street art</p>
+							<p class="left"> • There is still a limited number of VR/AR apps that enhances the street art viewing experience</p>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title"><h2 class="left blocker">User interviews</h2>
+							<p class="left">To understand the specific features which users need, I posted a screener survey and conducted interviews with some relevant users:</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/key-quotes.png" alt="">
+							</div>
+						</div>
+						
+                        <div class="title"><h2 class="left blocker">Insights</h2>
+							<p class="left"> • Users unintentionally run into street/public art.</p>
+							<p class="left"> • Users want information about public art, but don’t know where to look. </p>
+							<p class="left"> • Most users do not research the art further online/onsite. </p>
+							<p class="left"> • Users take pics and post to social media. </p>
+							<p class="left"> • Users would interrupt their current routine to take a picture.</p>
+							<p class="left"> • Most users think an audio guide would benefit the viewing experience. </p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="">
+				<div class="container grid">
+					<div class="title blocker">
+							<h2 class="left blocker">User Personas</h2>
+							<p>Through research, I learned that people visit murals for different reasons. Some visit to take photos for the social aspect, some are interested in art, and others want to learn about the community stories. With these findings I identified three types of target users. The ‘Social visitor’, the ‘Culture lover’ and the ‘Muralist’. Keeping the design challenge in mind, I created three personas to clarify the goals and pain points of my target users.</p>
+			        <div class="tabgroup top-space">
+					     <ul class="tablist">
+					        <li class="tab active">Social visitor</li>
+					        <li class="tab">Culture lover</li>
+					        <li class="tab">Muralist</li>
+					     </ul>
+
+				      <ul class="contentlist">
+					      <li class="content active">
+					        <div class="row">
+						         <div class="col-md-6 col-sm-12" >
+						            <a href=" https://Offtime.com/"><img src="imgs/blocker/com-o.jpg" alt="" style="width: 100%;"></a>
+						         </div>
+						         <div class="col-md-6 col-sm-12">
+									<div class="box" style="margin:2% 2% 8% 8%;">
+
+										<ul class="competitors">
+											  <p>Brandon is a photographer who lives in San Francisco. He is socially active and looking for interesting content to post.</p>
+										</ul> 
+									  </div>
+						         	<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+							          <h4>Goals</h4>
+							          <ul class="competitors">
+								            <li>Get more information about artworks and artists</li>
+								            <br>
+								            <li>Take photos with cool visual effects and share the experiences with others</li>
+							          </ul> 
+									</div>
+									<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+										<h4>Pain points</h4>
+										<ul class="competitors">
+											  <li>Struggles to find murals that inspires or interests him</li>
+										</ul> 
+									  </div>
+					         	</div>
+							          
+					        </div>
+					      </li>
+					      <li class="content">
+					        <div class="row">
+						         <div class="col-md-6 col-sm-12">
+						            <a href=" https://Offtime.com/"><img src="imgs/blocker/com-m.jpg" alt="" style="width: 100%;"></a>
+						         </div>
+								 <div class="col-md-6 col-sm-12">
+									<div class="box" style="margin:2% 2% 8% 8%;">
+
+										<ul class="competitors">
+											  <p>Sarah is traveling to San Francisco. She is enthusiastic about art and always open for new experiences.</p>
+										</ul> 
+									  </div>
+						         	<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+							          <h4>Goals</h4>
+							          <ul class="competitors">
+								            <li>Explore the city in an unique way</li>
+								            <br>
+								            <li>Be engaged and learn something new about street art</li>
+							          </ul> 
+									</div>
+									<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+										<h4>Pain points</h4>
+										<ul class="competitors">
+											  <li>Feels frustrated because of the lack of knowledge on the art she encounters</li>
+										</ul> 
+									  </div>
+					         	</div>
+					        </div>
+					      </li>
+					      <li class="content">
+					        <div class="row">
+						         <div class="col-md-6">
+						            <a href=" https://Offtime.com/"><img src="imgs/blocker/com-f.jpg" alt="" style="width: 100%;"></a>
+						         </div>
+						         <div class="col-md-6 col-sm-12">
+									<div class="box" style="margin:2% 2% 8% 8%;">
+
+										<ul class="competitors">
+											  <p>Tom is a professional muralist who lives in San Francisco. He loves to bring innovation into his works.</p>
+										</ul> 
+									  </div>
+						         	<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+							          <h4>Goals</h4>
+							          <ul class="competitors">
+								            <li>Create an experience that attracts more viewers and business</li>
+								            <br>
+								            <li>Needs a platform to showcase his works and build influences</li>
+							          </ul> 
+									</div>
+									<div class="box" style="margin:2% 2% 8% 8%;">
+						     
+										<h4>Pain points</h4>
+										<ul class="competitors">
+											  <li>His works are not reaching a wider audience</li>
+										</ul> 
+									  </div>
+					         	</div>
+					        </div>
+					      </li>
+				     
+				      </ul>
+				    </div>
+				</div>
+				</div>
+			</div>
+
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title">
+							<h3 class="big left">2. Ideation</h3>
+							<h2 class="left blocker">How Might We:</h2>
+							<p class="left">How might we bring street art to people? How might we make the mural viewing experience more engaging? How might we make the information accessible and less time consuming to find? </p>
+							<br>
+							<p class="left">To solve the problem, I have brainstormed and sketched out some potential solutions in which addresses the pain points and satisfies the goals of the target users.</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/ideation.jpg" alt="">
+							</div>
+						</div>
+						<div class="title">
+							<p class="left">After doing more research and pitching ideas to people I interviewed before, I decided to focus on the following solutions for a mobile app:</p>
+						</div>
+						<div class="title">
+							<h2 class="left blocker">Location mapping to better discover murals</h2>
+							<p class="left">From the interviews, I learnt that people wanted information about, and location of the street art. Therefore the app should include an interactive map, with the ability to search for murals. It should also allow the users to learn more about the art they come across and include camera functionality such that they can record the experience and share it.</p>
+						</div>
+						<div class="title">
+							<h2 class="left blocker">AR feature to enhance the mural viewing experience</h2>
+							<p class="left">People are intrigued by the idea of implementing Augmented Reality such that they can interact with artworks. By including digital elements, the experiences for the viewers is enhanced. Augmented Reality can also be a tool for muralists to create artworks that are more dynamic, where sound, image, video, and even 3D assets can be explored. 
+								Controversial art can be partially or completely contained into a digital space, a hidden layer for creative expressions.</p>
+						</div>
+						<div class="title">
+							<h2 class="left blocker">Self-guided mural audio tour</h2>
+							<p class="left">Some muralists have conducted tours for extra income, but after the shelter-in-place orders and lockdowns came into effect in 2020, muralists could no longer rely on the extra income from conducting tours. By creating an audio tour in the app, mural tours can be given to any sightseer at any time, while benefitting the muralists economically, as well as providing the sightseers with the opportunity to tour the murals at their own pace, while also multi-tasking in their environment. This can be a business opportunity for SpotArt.</p>
+						</div>
+					
+						
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+			<div class="">
+				<div class="container grid">
+					<div class="gutters flex row title">
+						<div class="col-lg-12">
+							<div class="">
+								<h3 class="big left" >3. Prototype & Testing</h3>
+								<h2 class="left blocker">User Flows</h2>
+							<p class="left">After gaining a clearer vision of possible solutions that can be used for the app, I created a user flow diagram and a wireframe for each persona:</p>
+								<h2 class="blocker left">Task 1: Get information and location of the mural</h2>
+							</div>
+							
+						</div>	
+						<div class="col-lg-8" >
+							<div class="">
+								<h4 class="persona-p">"I want location and information about public art, but don’t know where to look."</h4>
+							</div>
+						</div>	
+						<div class="col-lg-4" style="margin:0 auto;">
+							<img class="big-img" style="width:200px;" src="imgs/blocker/blocker-persona1.png" alt="">
+						</div>
+						<div class="col-lg-12">
+							<div class="">
+								<img class="big-img" src="imgs/blocker/SpotArt_User flow.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="top-space">
+						<img class="big-img" src="imgs/blocker/wireframes-01.png" alt="">
+					</div>
+				</div>
+			</div>
+
+
+
+						
+			<div class="">
+				<div class="container grid">
+					<div class="gutters flex row title">
+                        <div class="col-lg-12">
+							<div class="">
+								<h2 class="blocker left">Task 2: Experience mural audio tours</h2>
+							</div>
+							
+						</div>	
+						<div class="col-lg-8" >
+							<div class="">
+								<h4 class="persona-p">"With an audio tour I can enjoy my own pace. I like that someone is telling me stories about the artwork."</h4>
+							</div>
+						</div>	
+						<div class="col-lg-4" style="margin:0 auto;">
+							<img class="big-img" style="width:200px;" src="imgs/blocker/blocker-persona2.png" alt="">
+						</div>
+						<div class="col-lg-12">
+							<div class="">
+								<img class="big-img" src="imgs/blocker/SpotArt_User flow2.png" alt="">
+							</div>
+						</div>
+					</div>
+						<div class="top-space">
+							<img class="big-img" src="imgs/blocker/wireframes-02.png" alt="">
+						</div>
+					</div>
+				</div>
+
+
+		<div class="">
+				<div class="container grid">
+					<div class="gutters flex row title">		
+						<div class="col-lg-12">
+							<div class="">
+								<h2 class="blocker left">Task 3: Upload AR video content for mural artwork</h2>
+							</div>
+							
+						</div>	
+						<div class="col-lg-8" >
+							<div class="">
+								<h4 class="persona-p">"I want to bring innovation into my work and expose it to as many people as possible."</h4>
+							</div>
+						</div>	
+						<div class="col-lg-4" style="margin:0 auto;">
+							<img class="big-img" style="width:200px;" src="imgs/blocker/blocker-persona3.png" alt="">
+						</div>
+						<div class="col-lg-12">
+							<div class="">
+								<img class="big-img" src="imgs/blocker/SpotArt_User flow3.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="top-space">
+						<img class="big-img" src="imgs/blocker/wireframes-03.png" alt="">
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title"><h2 class="left blocker">Usability Testing</h2>
+							<p class="left">I asked people to perform each task with a paper prototype, observed their interactions and took notes as they talked through their thoughts. They came up with the following issues:
+							</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/user-testing.jpg" alt="">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+            <div id="fullpage">
+				<div class="section fp-auto-height" id="section6">
+			        <div class="slide" id="slide1">
+			              <div class="task-flow-content myContent">
+								<img class="big-img" style="width:100%"src="imgs/blocker/wireframes13-08.jpg" alt="">
+						  </div>
+			        </div>
+			        <div class="slide" id="slide2">
+			            <div class="task-flow-content myContent">
+								<img class="big-img" style="width:85%"src="imgs/blocker/wireframes-05.png" alt="">
+						  </div>
+			        </div>
+			        <div class="slide" id="slide3">
+			            <div class="task-flow-content myContent">
+								<img class="big-img" style="width:85%"src="imgs/blocker/wireframes-06.png" alt="">
+						  </div>
+			        </div>
+			        <div class="slide" id="slide4">
+			            <div class="task-flow-content myContent">
+								<img class="big-img" style="width:85%"src="imgs/blocker/wireframes-07.png" alt="">
+						  </div>
+			        </div>
+			    </div>			
+		</div>
+	
+
+			<div class="">
+				<div class="container grid">
+					<div class="title">
+						<h3 class="big left" >4. Visual Design</h3>
+						<div class="top-space"><h2 class="blocker left">Logo Design</h2>
+
+							<p class="left">With the wireframes complete, I moved on to creating a logo and implementing a style guide for the application.</p>
+						</div>
+						
+						<div class="">
+							<img class="big-img" src="imgs/blocker/logo2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title">
+							<h2 class="blocker left">Style Guide</h2>
+							<p class="left;">An engaging color palette with four primary colors, a bold typography from Google Fonts — Montserrat, and a playful imagery. It is designed to invite a user to interact and learn by using the app.</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/style-guide.png" alt="">
+							</div>
+							<!-- <div class="top-space">
+								<img class="big-img" src="imgs/blocker/styleguide-1.png" alt="">
+							</div> -->
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="">
+				<div class="container grid">
+					<div class="">
+						<div class="title">
+							<h3 class="big left">4. Technical Process</h3>
+							<h2 class="blocker left">Technology Used</h2>
+							<p class="left;">I decided to use Unity as my main working platform because Unity has a lot of helpful tools and plugins for AR development.</p>
+							<div class="top-space">
+								<img class="big-img" src="imgs/blocker/technology.jpg" alt="">
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+
+			
+		
+		</div>
+
+
+		
+		<div class="myContent">
+			<div class="container">
+				<div class="">
+					<div class="title">
+						<h3 class="big left">5. Final Design</h3>
+						</div>
+					</div>
+					
+					<div class="grid">
+
+						<!-- <div class="row gutters flex mid" style="background-color:#fafafa;"> -->
+						<div class="row gutters flex mid" style="background-color:#e9e9ea;">
+							<div class="col-lg-6 show ">
+								<div class="final" >
+									<h3 class="big left">Bring street art to life with SpotArt</h3>			
+									<p >SpotArt puts an endlessly expressive story-telling tool into the hands of artists and into the lives of the audience.</p>	
+									</div>
+
+							</div>
+							<div class="col-lg-6">
+								<div class="img-box">
+									<img class="big-img" src="imgs/blocker/onboarding.gif" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="row gutters flex mid" style="background-color:#e9e9ea;">
+							<div class="col-lg-6">
+								<div class="img-box">
+									<img class="big-img" src="imgs/blocker/task1.gif" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 show ">
+								<div class="final" >
+									<h3 class="big left">Experience murals with sound, motion and 3D elements</h3>			
+									<p >Discover nearby artworks on a map effortlessly. Point your camera towards the artwork and see curated content in AR created by muralists.</p>	
+									</div>
+
+							</div>
+							<div class="col-lg-6 show ">
+								<div class="final" >
+									<h3 class="big left">Go on immersive street art audio tours</h3>			
+									<p >Listen to insightful stories about artworks and their communities while following pre-set walking routes. Put on headphones, tap start, and the audio will play at the right time and place.</p>	
+									</div>
+
+							</div>
+							<div class="col-lg-6">
+								<div class="img-box">
+									<img class="big-img" src="imgs/blocker/task2.gif" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="row gutters flex mid" style="background-color:#e9e9ea;">
+							<div class="col-lg-6">
+								<div class="img-box">
+									<img class="big-img" src="imgs/blocker/task3.gif" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 show ">
+								<div class="final" >
+									<h3 class="big left">Promote artwork better by adding AR content</h3>			
+									<p >Simply scan and tap to place digital elements to your work. Take your audience on a journey through art. Your artwork has the power to evolve. 
+									</p>	
+									</div>
+
+							</div>
+							<div class="button col-lg-12" style="margin-top:80px;">
+								<a href="">&rarr;&ensp;&ensp; PROTOTYPE</a>
+							</div>
+						</div>
+						
+						
+						
+			
+						</div>	
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<div class="bj-footer">
+		<div class="container grid flex-nor">
+
+				<div class="button-box ">
+		
+					<img class="big-img show" src="imgs/p-menu.png" alt="">
+					<a href="spotart.html" class="left"><i class="fas fa-arrow-left"></i>&ensp;Pervious</a>
+
+				</div>
+				<div class="social flex row show">
+					<a href=""><div class="scrollTop"></div></a>
+					<a href="https://www.pinterest.com/"><img src="icon/icon-pin.png" alt=""></a>
+					<a href="hhttps://www.instagram.com/"><img src="icon/icon-ins.png" alt=""></i></a>
+					<a href="https://www.linkedin.com/"><img src="icon/icon-lin.png" alt=""></a>
+					<a href="https://www.facebook.com/"><img src="icon/icon-f.png" alt=""></a>
+				</div>
+				<div class="button-box ">
+			
+					<img class="big-img show" src="imgs/okios-cover.png" alt="">
+					<a href="spotart.html" class="right">Next &ensp;<i class="fas fa-arrow-right"></i></a>
+				
+				</div>
+		</div>
+	</div>
+	<div class="bj-footer ">
+		<div class="container visiable hidden">
+			<div class="social flex row ">
+				<a href="https://www.pinterest.com/"><img src="icon/icon-pin.png" alt=""></a>
+				<a href="https://www.instagram.com/"><img src="icon/icon-ins.png" alt=""></i></a>
+				<a href="https://www.linkedin.com/"><img src="icon/icon-lin.png" alt=""></a>
+				<a href="https://www.facebook.com/"><img src="icon/icon-f.png" alt=""></a>
+
+			</div>
+		</div>
+		<a class="copy">© Designed by Lan Luo</a>
+	</div>
+
+
+
+	<script type="text/javascript" src="lib/fullpage.js"></script>
+	<!-- <script type="text/javascript" src="lib/examples.js"></script> -->
+	<script type="text/javascript" src="lib/scrolloverflow.js"></script>
+	<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage'],
+        sectionsColor: ['white'],
+        autoScrolling: false,
+        css3: true,
+        fitToSection: false
+    });
+</script>
+
+</body>
+</html>
